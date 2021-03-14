@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.Fiftyville.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../:\TRMO\.NET projects\Fiftyville\.idea\.idea.Fiftyville\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
