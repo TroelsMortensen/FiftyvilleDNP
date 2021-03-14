@@ -24,9 +24,7 @@ All you know is that
 
 Come up with a list of suspects. Can you narrow it down to 8? How much further down can you narrow your suspects?
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fsherlock-holmes-and-the-case-of-toxic-masculinity-what-is-behind-the-detectives-appeal-149561&psig=AOvVaw1PsA5up7eKYP6BLhXUCC3s&ust=1615828328280000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjFofSjsO8CFQAAAAAdAAAAABAD)
-
-![alt text](https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/Sherlock.jpg)
+![alt text](https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/Sherlock.jpg =250x)
 
 
 # Credits
