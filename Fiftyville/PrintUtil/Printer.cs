@@ -18,6 +18,7 @@ namespace Fiftyville.PrintUtil
 
         private static string CreateTable<T>(List<T> list, string tableHeader, PropertyInfo[] properties, Dictionary<string, int> columnLengths)
         {
+            Console.WriteLine("");
             string table = tableHeader + "\n";
             foreach (T item in list)
             {
