@@ -24,7 +24,7 @@ All you know is that
 
 Come up with a list of suspects. Can you narrow it down to 8? How much further down can you narrow your suspects?
 
-![alt text](https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/Sherlock.jpg =250x)
+![alt text](https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/Sherlock.jpg)
 
 
 # Credits
