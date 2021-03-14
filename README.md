@@ -8,7 +8,8 @@ You will have to go to the DataAccess/FiftyVilleContext.cs class and change the 
 
 The model classes have no associations amongst each other. It is instead modelled more like a database, using various foreign keys.
 Here is a global relations diagram of the database. The model classes with their attributes are named similarly, though using C# naming conventions.
-<img src="https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/GRdiagram.png" alt="drawing" width="400"/>
+<img src="https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/GRdiagram.png" alt="drawing" width="800"/>
+The diagram is also found here: https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/GRdiagram.png
 
 
 # Description:
