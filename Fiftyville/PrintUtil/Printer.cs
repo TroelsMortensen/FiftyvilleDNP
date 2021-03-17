@@ -13,12 +13,22 @@ namespace Fiftyville.PrintUtil
             var tableHeader = CreateTableHeader<T>(properties, columnLengths);
             var table = CreateTable(list, tableHeader, properties, columnLengths);
 
+
+            string top = "";
+            string bottom = "";
+            for (int i = 0; i < tableHeader.Length; i++)
+            {
+                top += "_";
+                bottom += "-";
+            }
+
+            Console.WriteLine("\n"+top);
             Console.WriteLine(table);
+            Console.WriteLine(bottom +"\n");
         }
 
         private static string CreateTable<T>(List<T> list, string tableHeader, PropertyInfo[] properties, Dictionary<string, int> columnLengths)
         {
-            Console.WriteLine("");
             string table = tableHeader + "\n";
             foreach (T item in list)
             {
@@ -38,6 +48,7 @@ namespace Fiftyville.PrintUtil
                 table += row + "\n";
             }
 
+            
             return table;
         }
 

@@ -8,7 +8,7 @@ namespace Fiftyville
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             FiftyVilleContext ctx = new FiftyVilleContext();
             
@@ -21,6 +21,6 @@ namespace Fiftyville
             
             // pretty printing result
             PrettyPrint(result);
-        }
+        }*/
     }
 }
