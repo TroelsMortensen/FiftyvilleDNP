@@ -41,14 +41,14 @@ namespace Fiftyville.PrintUtil
                         rowItem += " ";
                     }
 
-                    row += rowItem + "|";
+                    row += rowItem + "| ";
                 }
 
                 row = row.TrimEnd('|');
                 table += row + "\n";
             }
 
-            
+            table = table.TrimEnd('\n');
             return table;
         }
 
@@ -63,7 +63,7 @@ namespace Fiftyville.PrintUtil
                     headerItem += " ";
                 }
 
-                tableHeader += headerItem + "|";
+                tableHeader += headerItem + "| ";
             }
 
             tableHeader = tableHeader.TrimEnd('|');
