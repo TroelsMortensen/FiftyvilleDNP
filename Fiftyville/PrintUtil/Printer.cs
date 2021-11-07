@@ -11,9 +11,7 @@ namespace Fiftyville.PrintUtil
             var properties = typeof(T).GetProperties();
             Dictionary<string, int> columnLengths = InitializeInfo(list, properties);
             var tableHeader = CreateTableHeader<T>(properties, columnLengths);
-            var table = CreateTable(list, tableHeader, properties, columnLengths);
-
-
+            
             string top = "";
             string bottom = "";
             for (int i = 0; i < tableHeader.Length; i++)
@@ -21,6 +19,9 @@ namespace Fiftyville.PrintUtil
                 top += "_";
                 bottom += "-";
             }
+
+            tableHeader += bottom ;
+            var table = CreateTable(list, tableHeader, properties, columnLengths);
 
             Console.WriteLine("\n"+top);
             Console.WriteLine(table);
