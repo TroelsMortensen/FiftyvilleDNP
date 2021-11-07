@@ -2,11 +2,13 @@
 
 This project is a practice in LINQ, and a theft mystery you must solve.
 Included in the project is a fiftyville.db sqlite file with all the data.
-The intention is that you write LINQ queries in the Programme.cs class, and use the PrettyPrint method to output a query result as a table in the console.
 
-You will have to go to the DataAccess/FiftyVilleContext.cs class and change the Data Source path to point to the fiftville.db file in your project, when you have it checked out.
+The intention is that you write LINQ queries in QueryClass class, and use the PrettyPrint method to output a query result as a table in the console. The QueryClass uses NUnit so that you can make a new method for each query, and not have to delete previous queries. 
 
-The model classes have no associations amongst each other. It is instead modelled more like a database, using various foreign keys.
+You will have to go to the DataAccess/FiftyVilleContext.cs class and change the Data Source path to point to the fiftville.db file in your project, when you have cloned the project.
+
+The model classes have no associations amongst each other, so they are not modelled as EFC proposes (this would require a larger rework of the data set, which I might do later. It means you cannot use .Include() for anything). It is instead modelled more like a database, using various foreign keys.
+
 Here is a global relations diagram of the database. The model classes with their attributes are named similarly, though using C# naming conventions.
 <img src="https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/GRdiagram.png" alt="drawing" width="1000"/>
 The diagram is also found here: https://github.com/TroelsMortensen/FiftyvilleDNP/blob/main/Fiftyville/GRdiagram.png
