@@ -21,7 +21,7 @@ namespace Fiftyville.DataAccess
         {
             // name of database
             // optionsBuilder.UseSqlite(@"Data Source = C:\TRMO\.NET projects\Fiftyville\Fiftyville\fiftyville.db");
-            optionsBuilder.UseSqlite(@"Data Source = fiftyville.db");
+            optionsBuilder.UseSqlite(@"Data Source = C:\TRMO\RiderProjects\FiftyvilleDNP\Fiftyville\fiftyville.db");
         }
     }
 }

@@ -23,6 +23,7 @@ namespace Fiftyville
         public void DisplayAirports()
         {
             List<Airport> airports = ctx.Airports.ToList();
+
             PrettyPrint(airports);
         }
 
@@ -32,5 +33,7 @@ namespace Fiftyville
             List<Person> result = ctx.People.Where(person => person.Name.ToLower().Contains("ch")).ToList();
             PrettyPrint(result);
         }
+        
+        
     }
 }
