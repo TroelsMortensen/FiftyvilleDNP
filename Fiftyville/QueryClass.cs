@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Fiftyville.DataAccess;
 using Fiftyville.Model;
@@ -22,9 +23,9 @@ namespace Fiftyville
         [Test]
         public void DisplayAirports()
         {
-            List<Airport> airports = ctx.Airports.ToList();
-
-            PrettyPrint(airports);
+            var airports = ctx.Airports.FirstOrDefault();
+            Console.WriteLine(airports);
+            // PrettyPrint(airports);
         }
 
         [Test]
